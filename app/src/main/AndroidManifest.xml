@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wakili.almustapha.healthfirst">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.wakili.almustapha.healthfirst.Splash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wakili.almustapha.healthfirst.DoctProfile" />
+        <activity android:name="com.wakili.almustapha.healthfirst.DoctCosultation" />
+        <activity
+            android:name="com.wakili.almustapha.healthfirst.Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Dsignup" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Doctorsignup" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Patients" />
+        <activity android:name="com.wakili.almustapha.healthfirst.DupdateProfile" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Dlogin" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Posting" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Posts" />
+        <activity android:name="com.wakili.almustapha.healthfirst.PostDetails" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Families" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Questions" />
+        <activity
+            android:name="com.wakili.almustapha.healthfirst.MainFam"
+            android:label="@string/title_activity_main_fam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Tips" />
+
+        <!-- Firebase Notifications -->
+        <service android:name="services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <activity android:name="firebasechat.ChatActivity" />
+        <activity android:name="firebasechat.UserActivity" />
+        <activity android:name="com.wakili.almustapha.healthfirst.ChatUserActivity" />
+        <activity
+            android:name="com.wakili.almustapha.healthfirst.PatientDB"
+            android:label="@string/title_activity_patient_db"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.wakili.almustapha.healthfirst.UserSetProfile" />
+        <activity android:name="com.wakili.almustapha.healthfirst.UserProfile" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Users" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Doctdetails" />
+        <activity android:name="com.wakili.almustapha.healthfirst.UserDetails" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Answers" />
+        <activity android:name="com.wakili.almustapha.healthfirst.healthreport" />
+        <activity android:name="com.wakili.almustapha.healthfirst.hrmenu" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Singupmenu" />
+        <activity android:name="com.wakili.almustapha.healthfirst.Menumain"></activity>
+    </application>
+
+</manifest>

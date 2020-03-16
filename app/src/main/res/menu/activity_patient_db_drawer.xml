@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navdash"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Clients Dashboard" />
+    </group>
+    <item android:title="CONSULTATIONS">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_myreport"
+                    android:icon="@drawable/ic_comment_black_24dp"
+                    android:title="MY HEALTH REPORTS" />
+                <item
+                    android:id="@+id/nav_mydoctor"
+                    android:icon="@drawable/ic_contact_mail_black_24dp"
+                    android:title="MY DOCTOR" />
+                <item
+                    android:id="@+id/nav_massage"
+                    android:icon="@drawable/ic_textsms_black_24dp"
+                    android:title="MASSAGES" />
+                <item
+                    android:id="@+id/nav_notification"
+                    android:icon="@drawable/ic_notifications_none_black_24dp"
+                    android:title="NOTIFICATIONS" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="OTHERS">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_viewarticle"
+                    android:icon="@drawable/ic_edit_black_24dp"
+                    android:title="VIEW HEALTH ARTICLE" />
+                <item
+                    android:id="@+id/nav_viewtips"
+                    android:icon="@drawable/ic_edit_black_24dp"
+                    android:title="VIEW HEALTH TIPS" />
+                <item
+                    android:id="@+id/nav_askquestion"
+                    android:icon="@drawable/ic_comment_black_24dp"
+                    android:title="ASK PUBLIC QUESTION" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

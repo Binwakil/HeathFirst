@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "282962562857",
+    "firebase_url": "https://healthfirst-76127.firebaseio.com",
+    "project_id": "healthfirst-76127",
+    "storage_bucket": "healthfirst-76127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282962562857:android:15091207ea4a84f3",
+        "android_client_info": {
+          "package_name": "com.example.almustapha.healthfirst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282962562857-lijtug0q6a44ht4j54219sr3dtfmcagv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.almustapha.healthfirst",
+            "certificate_hash": "dde10e733a9628ad2ae366cc211a1d404559aa6d"
+          }
+        },
+        {
+          "client_id": "282962562857-b226ddgb8q5c9db03omt80au91fv13t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKGjk0j0tEzjqYG8u29SpHbg82CdTiFIk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282962562857-b226ddgb8q5c9db03omt80au91fv13t8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wakili.almustapha.healthfirst.Dsignup">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Registration"
+            android:layout_marginBottom="20dp"/>
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:hint="Name" >
+        <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="1"
+            android:hint="Email">
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etEmail"
+            android:layout_below="@+id/etEmail"
+            android:ems="10"
+            android:hint="Password"
+            android:focusableInTouchMode="true"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            />
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etPassword"
+            android:layout_below="@+id/etPassword"
+            android:text="SIGNUP"
+            android:background="@drawable/buttom1"
+            android:textColor="#FFF"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/tvlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:text="Already Have an Account? LOGIN"
+            android:textAllCaps="false"
+            android:textColor="@color/green"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone" />
+
+</android.support.constraint.ConstraintLayout>

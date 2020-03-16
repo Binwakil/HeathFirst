@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wakili.almustapha.healthfirst.Singupmenu">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HEALTH FIRST APP"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/green"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CREATE ACCOUNT"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <Button
+                android:id="@+id/btnDoctor"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etPassword"
+                android:layout_below="@+id/etPassword"
+                android:text="New Doctor Account"
+                android:background="@drawable/buttom1"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/btnUser"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etPassword"
+                android:layout_below="@+id/etPassword"
+                android:text="New Patient Account"
+                android:background="@drawable/buttom1"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
